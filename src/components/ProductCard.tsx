@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { Star, ShoppingCart } from 'lucide-react';
 import { Product } from '../types';
 import { useCart } from '../context/CartContext';
@@ -33,7 +33,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
       <div className="p-4 flex flex-col flex-grow">
         <div className="flex justify-between items-start mb-2">
           <h3 className="font-medium text-lg text-gray-900 line-clamp-1">{product.name}</h3>
-          <span className="font-bold text-lg text-blue-600">?{product.price.toFixed(2)}</span>
+          <span className="font-bold text-lg text-blue-600">₹{product.price.toFixed(2)}</span>
         </div>
         
         <p className="text-gray-600 text-sm mb-4 line-clamp-2">{product.description}</p>
