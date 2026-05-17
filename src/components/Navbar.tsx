@@ -44,7 +44,7 @@ const Navbar: React.FC<NavbarProps> = ({
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <a href="/" className="flex-shrink-0 flex items-center">
-              <span className="text-blue-600 font-bold text-2xl">ShopHub</span>
+              <span className="text-blue-600 font-bold text-2xl">SkyMart</span>
             </a>
           </div>
           
